@@ -536,7 +536,7 @@ h1 {
 .header_nav_menu_link a::after {
     content: '';
     height: 2px;
-    background-color: red;
+    background-color: white;
     width: 0;
     position: absolute;
     bottom: -5px;
