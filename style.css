@@ -1,0 +1,785 @@
+/* RESET : permet d'effacer le style par défaut imposé par le navigateur */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* mes polices */
+
+body {
+
+    font-family: "Poppins", sans-serif;
+
+    font-style: normal;
+
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* dans un container on un a max-width et un width 100% */
+.container-1000 {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+*-------------------------------------------------------------------------------------------*/
+/* TEST DE VISUALISATION POUR LES NULS!!!*/
+
+.bgred {
+    background-color: red;
+}
+
+.bgblue {
+    background-color: blue;
+}
+
+.bggreen {
+    background-color: green;
+}
+
+.bgyellow {
+    background-color: yellow;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+
+
+/* les classe fonctionnelle flex */
+
+.flex {
+    display: flex;
+    /*rendre flexible un parent = aligner ses enfants */
+    flex-wrap: wrap;
+    /* revient à la ligne */
+}
+
+/* mettre un espace entre les enfant*/
+.space-between {
+    justify-content: space-between;
+}
+
+/* en plus un espace sur les côtés*/
+.space-around {
+    justify-content: space-around;
+}
+
+.justify-center {
+    justify-content: center;
+
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* mes généralités */
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 300;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* autre fonction */
+
+.text-center {
+    text-align: center;
+}
+
+.txt-white {
+    color: white;
+}
+
+.txt-blue {
+    color: #2897B8;
+}
+
+.txt-red {
+    color: red;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* les classes de largeur */
+
+.w-05 {
+    width: 5%;
+}
+
+
+.w-10 {
+    width: 10%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+
+.w-20 {
+    width: 20%;
+}
+
+.w-23 {
+    width: 23%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-28 {
+    width: 28%;
+}
+
+.w-29 {
+    width: 29%;
+}
+
+.w-30 {
+    width: 33%;
+}
+
+
+.w-33 {
+    width: 33%;
+}
+
+.w-35 {
+    width: 35%;
+}
+
+.w-38 {
+    width: 38%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-42 {
+    width: 42%;
+}
+
+.w-45 {
+    width: 48%;
+}
+
+.w-48 {
+    width: 48%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-52 {
+    width: 52%;
+}
+
+.w-55 {
+    width: 55%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-63 {
+    width: 63%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.w-68 {
+    width: 68%;
+}
+
+.w-70 {
+    width: 80%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*mes classes d'espace*/
+
+.gap-20 {
+    gap: 20px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*mes classes de taille */
+
+.size-10 {
+    font-size: 10px;
+}
+
+.size-15 {
+    font-size: 15px;
+}
+
+.size-20 {
+    font-size: 20px;
+}
+
+.size-25 {
+    font-size: 25px;
+}
+
+.size-30 {
+    font-size: 30px;
+}
+
+.size-60 {
+    font-size: 60px;
+}
+
+.size-70 {
+    font-size: 60px;
+}
+
+.size-100 {
+    font-size: 100px;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* seul les margin top et bottom sont tolérés*/
+
+.margin-top-5 {
+    margin-top: 5px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-top-150 {
+    margin-top: 150px;
+}
+
+.margin-top-170 {
+    margin-top: 170px;
+}
+
+.margin-top-180 {
+    margin-top: 180px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-250 {
+    margin-top: 250px;
+}
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-100 {
+    margin-bottom: 100px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-250 {
+    margin-bottom: 250px;
+}
+
+.margin-bottom-300 {
+    margin-bottom: 300px;
+}
+
+*-------------------------------------------------------------------------------------------*/
+/*classe padding*/
+
+.padding-5 {
+
+    padding: 5px;
+}
+
+.padding-10 {
+
+    padding: 10px;
+}
+
+
+.padding-20 {
+
+    padding: 20px;
+}
+
+.padding-30 {
+
+    padding: 30px;
+}
+
+
+
+*-------------------------------------------------------------------------------------------*/
+/*classe bouton*/
+
+.btn {
+    background-color: #2897B8;
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn2 {
+    background-color: white;
+    color:#2897B8;
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* section hero*/
+
+.section-hero {
+    background-image: url(assets/HERO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vH;
+    margin-top: 80px;
+    color: white;
+
+}
+
+.position-titre {
+    transform: translate(0, 250px);
+}
+
+.btn {
+    background-color: #2897B8;
+    color: white;
+    padding: 15px 15px;
+    display: inline-block;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* MAIN*/
+
+.section-blue {
+    background-color: #2897B8 ;
+}
+
+.padding-section {
+
+    padding: 50px;
+}
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/* SECTION GOOGLE */
+
+.card-utilisateur {
+
+    background-color: #2897B8;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.card-utilisateur2 {
+
+    background-color: red;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.utilisateur {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* section footer */
+
+.footer {
+    background-color: #2897B8;
+    color: white;
+}
+
+.borderCARD {
+    border-radius: 10px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/* section nav header responsive*/
+
+.header {
+    background-color: #2897B8;
+    width: calc(100%);
+    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-shadow: #a09dcf;
+    z-index: 1;
+}
+
+.header_logo img {
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+.footer_logo img {
+    max-height: 80px;
+    border-radius: 5px;
+}
+
+.header_nav_menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.header_nav_menu_link {
+    margin-right: 40px;
+
+}
+
+.header_nav_menu_link:last-of-type {
+    margin-right: initial;
+
+}
+
+.header_nav_menu_link a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+
+
+}
+
+.header_nav_menu_link a::after {
+    content: '';
+    height: 2px;
+    background-color: red;
+    width: 0;
+    position: absolute;
+    bottom: -5px;
+    transition: 0.2s all ease-in-out;
+
+}
+
+.header_nav_menu_link a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* ici ma fonction responsive, ici on code le desktop first et le mobile on le fera après*/
+/* pris sur Alsace media quiries*/
+/* ECRAN 500*/
+
+.header_burger {
+    display: none;
+    cursor: pointer;
+}
+
+.header_burger svg {
+    stroke: white;
+    width: 50px;
+    height: 50px;
+
+}
+
+.header_nav_close {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+
+
+    .header_burger {
+        display: block;
+    }
+
+    .header_nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 1OOvh;
+        background-color: #2897B8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+
+        transition: 0.3s transform ease-in-out;
+
+    }
+
+    .header_nav.open {
+        transform: initial;
+
+    }
+
+    .header_nav_menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header_nav_menu_link {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .header_nav_menu_link a {
+        font-size: 25px;
+    }
+
+    .header_nav_close {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header_nav_close svg {
+        stroke: white;
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+
+    .overlay-menu-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: none;
+    }
+
+
+    .overlay-menu-mobile.open {
+        display: block
+    }
+
+
+    /*-------------------------------------------------------------------------------------------*/
+    /* pour le changement des images de mon main ECRAN 500*/
+
+
+    .medium500 {
+        width: 100%;
+
+    }
+
+    .medium500w-100 {
+        width: 100%;
+
+    }
+
+    .medium500-MB-20 {
+        margin-bottom: 20px;
+    }
+
+    .medium500-center {
+        justify-content: center;
+    }
+
+}
+
+
+
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/* ECRAN 800*/
+
+@media screen and (max-width: 900px) {
+
+
+    .header_burger {
+        display: block;
+    }
+
+    .header_nav {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 300px;
+        height: 1OOvh;
+        background-color: #2897B8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(100%);
+
+        transition: 0.3s transform ease-in-out;
+
+    }
+
+    .header_nav.open {
+        transform: initial;
+
+    }
+
+    .header_nav_menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header_nav_menu_link {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .header_nav_menu_link a {
+        font-size: 25px;
+    }
+
+    .header_nav_close {
+        display: block;
+        cursor: pointer;
+    }
+
+    .header_nav_close svg {
+        stroke: white;
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+
+
+    .overlay-menu-mobile {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vh;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.6);
+        display: none;
+    }
+
+
+    .overlay-menu-mobile.open {
+        display: block
+    }
+
+
+    /*-------------------------------------------------------------------------------------------*/
+    /* pour le changement des images de mon main EN ECRAN 900*/
+
+
+    .medium900 {
+        width: 100%;
+
+    }
+
+    .medium900w-100 {
+        width: 100%;
+
+    }
+
+    .medium900-MB-20 {
+        margin-bottom: 20px;
+    }
+
+    .medium900-center {
+        justify-content: center;
+
+    }
+
+    .position-titre-900 {
+    transform: translate(0, 180px);
+    
+}
+
+.h1-900 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+}
